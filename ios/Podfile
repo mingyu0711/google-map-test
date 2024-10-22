@@ -16,7 +16,7 @@ end
 
 target 'rn_map_test' do
   config = use_native_modules!
-
+  pod 'GoogleMaps', '~> 7.0' # 최신 버전으로 추가
   use_react_native!(
     :path => config[:reactNativePath],
     # An absolute path to your application root.
