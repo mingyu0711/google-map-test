@@ -68,16 +68,16 @@ const App = (): React.JSX.Element => {
             latitudeDelta: 0.0922,
             longitudeDelta: 0.0421,
           }}
-          // initialCamera={{
-          //   center: {
-          //     latitude: LATITUDE,
-          //     longitude: LONGITUDE,
-          //   },
-          //   pitch: 45,
-          //   heading: 90,
-          //   altitude: 1000,
-          //   zoom: 10,
-          // }}
+          initialCamera={{
+            center: {
+              latitude: LATITUDE,
+              longitude: LONGITUDE,
+            },
+            pitch: 45,
+            heading: 90,
+            altitude: 1000,
+            zoom: 10,
+          }}
         />
       </View>
     </View>
